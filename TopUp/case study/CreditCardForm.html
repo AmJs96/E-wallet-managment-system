@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TopUp</title>
+</head>
+<body>
+    <div class="main-block">
+        <form action="creditPay.php" class="" method="POST">
+            <table>
+             <br>
+             <br>
+             <br>
+             <tr>
+                 <td><label for="amount">Amount:</label></td>
+                 <td><input type="text" id="amount" name="amount" required></td>
+             </tr>
+             
+             <tr>
+                 <td><label for="card_num">Card Number:</label></td>
+                 <td><input type="text" id="card_num" name="card_num" required></td>
+             </tr>
+             <tr>
+                 <td><label for="exp">Expiration (mm/yy):</label></td>
+                 <td><input type="text" id="exp" name="exp" required></td>
+             </tr>
+             <tr>
+                 <td><label for="cvc">CVC:</label></td>
+                 <td><input type="text" id="cvc" name="cvc" required></td>
+             </tr>
+         </table>
+         <button class="option_btn" id="pay" name="pay" type="submit" value="Pay" onclick="cashback();" >Confirm</button>
+        </form>
+     </div>
+</body>
+</html>

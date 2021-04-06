@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TopUp</title>
+</head>
+<body>
+    <div class="main-block" >
+    
+    <form action="bankTopup.php" method="GET" id="conb">
+          <label for="bank">Choose Bank:</label>
+          <select name="bank" id="bank">
+          <option value="maybank">Maybank</option>
+          <option value="cimb">CIMB</option>
+          <option value="ambank">AmBank</option>
+          <option value="hcbc">HCBC</option>
+        </select>
+<br> <br>
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount" required>
+<br>
+<button class="option_btn" id="con" name="con" type="con" value="Confirm">Confirm</button>
+
+      </form>
+      
+    </div>
+</body>
+</html>

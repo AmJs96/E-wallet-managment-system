@@ -1,0 +1,91 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+body,
+div,
+h1,
+form {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: #666;
+}
+h1 {
+  padding: 10px 0;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 12px;
+  text-align: center;
+}
+hr {
+  color: #a9a9a9;
+  opacity: 0.3;
+}
+.main-block {
+  max-width: 340px;
+  min-height: 300px;
+  padding: 10px 0;
+  margin: auto;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.31);
+  background: #ebebeb;
+}
+form {
+  margin: 0 30px;
+}
+
+.btn-block {
+  margin-top: 10px;
+  text-align: center;
+}
+button {
+  width: 250px;
+  padding: 10px 0;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: none;
+  background: #1c87c9;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.main-block-op {
+  max-width: 320px;
+  min-height: 300px;
+  padding: 10px 0;
+  margin: auto;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.31);
+  background: #ebebeb;
+}
+a {
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+#pay {
+  margin-left: 20px;
+}
+
+#conb {
+  margin-top: 100px;
+}
