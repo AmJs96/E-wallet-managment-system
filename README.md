@@ -1,7 +1,7 @@
 # E-wallet managment system
 INFO 3305 Web Application Development Case Study
 <br>
-Group Members:
+Group 3/BOTS  Members:
 <br>
 1- SAMAE ARMEEROH 1722098
 <br>
