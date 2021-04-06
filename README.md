@@ -26,6 +26,8 @@ back (extra 0.50 for each top up).
 SHIMA HAIDAR
 <br>
 1- Users are given a discount of 10% for off peak hours’ usage.
+<br>
+2- Compile the parts together.
 <br><br>
 SALEH KAWTHAR
 <br>
