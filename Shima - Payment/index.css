@@ -1,0 +1,129 @@
+/*Shima-1725900*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+h6{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+	h1 {
+		color: black;
+		margin-left: auto;
+		text-align: center;
+		color: #ffe268;
+		font-size: 30px;
+	}
+	h2 {
+		color: black;
+		margin-left: auto;
+		padding: 30px;
+		text-align: center;
+		background: #ffb037;
+		color: white;
+		font-size: 30px;
+	  }
+
+
+   #OB {
+	background-color:  #e2703a;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100px;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  #bal {
+	width: 90%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical
+  }
+
+
+   #CC  {
+	background-color: #e2703a;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100px;
+	font-size: medium;
+  }
+
+	#BFP  {
+ background-color: #e2703a;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ width: 100px;
+ font-size: medium;
+ }
+
+  #pay {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical
+
+  }
+
+  .IP {
+	border-radius: 5px;
+	float: center;
+	border-style: groove;
+	border-color:  #e2703a;
+	background-color: white;
+	padding: 20px;
+	width: 500px;
+	display: inline-block !important;
+  }/*}*/
+
+	/*Kawther Shamsu alam 1725298*/
+  #AB {
+	border-radius: 5px;
+	border-style: groove;
+	border-color:  #ffd3b4;
+	background-color: #ffe268;
+    float: right;
+	padding: 20px;
+	width: 300px;
+  }
+
+#MTBL {
+	border-radius: 5px;
+	border-style: groove;
+	border-color: #ffe268;
+		margin-left: 20px;
+		padding: 10px;
+		text-align: center;
+		background: #ffe268;
+		color: white;
+		font-size: 30px;
+		left: 10px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.MT{
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	}/*}*/
