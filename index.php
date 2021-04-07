@@ -126,14 +126,14 @@ if(!isset($_SESSION['bal']))
 date_default_timezone_set("Asia/Kuala_Lumpur");
 
 $date_of_transaction = date("H:i:s");
-$start = '12:00:00';
+$start = '11:00:00';
 $end = '13:00:00';
 
 if($date_of_transaction >= $start && $date_of_transaction <= $end) {
 
   $remaining_balance = (($balance - $payment) + ( $payment * 0.1));
 
-  echo "<p style='color:green;font-size:20px' font-style:bold>You have recieved a discount of 10% for off peak hours’usage.</p>";
+  echo "<p style='color:green;font-size:20px' font-style:bold>You have recieved a 10% discount during peak hours</p>";
 
 } else {
 
